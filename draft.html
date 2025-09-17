@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabby Khan - Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+    <style>
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+        .font-lato {
+            font-family: "Lato", sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom class for the dark mode background gradient if needed */
+        .bg-dark-mode {
+            background: #000412;
+        }
+        .bg-gradient-hero {
+            background: linear-gradient(180deg, #1A1E2F 0%, #000412 100%);
+        }
+        /* Style for the project cards to have a similar background to the original */
+        .project-card {
+            background-color: #1a1e2f;
+        }
+    </style>
+</head>
+<body class="font-lato bg-dark-mode text-white">
+      <!-- header start -->
+    <header class="bg-gradient-hero">
+        <!-- navbar -->
+        <nav class="navbar max-w-7xl mx-auto px-4 py-4">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-[#000412] text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="text-xl font-bold font-inter text-[#40D1D2]">< Rabby Khan /></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-inter font-light">
+                    <li><a href="#about" class="text-white hover:text-[#40D1D2]">About</a></li>
+                    <li><a href="#services" class="text-white hover:text-[#40D1D2]">Services</a></li>
+                    <li><a href="#projects" class="text-white hover:text-[#40D1D2]">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-[#40D1D2]">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                 </div>
+        </nav>
+        <!-- navbar -->
+         <!-- banner -->
+
+        <div class="hero min-h-screen px-4 py-24 md:py-0">
+            <div class="flex flex-col md:flex-row-reverse items-center justify-between max-w-7xl mx-auto">
+                <div class="lg:w-1/2 flex justify-center">
+                    <img src="img/banner img.png" class="max-w-xs md:max-w-lg lg:max-w-xl rounded-lg" alt="Developer at a desk illustration" />
+                </div>
+                <div class="lg:w-1/2 text-center md:text-left">
+                    <h1 class="text-xl md:text-2xl font-semibold font-inter text-[#B4B7C5]">Hi, I am Rabby_Khan__</h1>
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold font-inter mt-2">
+                        <span class="text-[#40D1D2]">Front-End</span>
+                        <span class="text-white">Developer</span>
+                    </h2>
+                    <p class="py-6 max-w-md mx-auto md:mx-0 font-light text-gray-400">
+                        I'm a Front-End I am currently working on a React.js project. I like to work on MERN stack and a huge fan of Open Source.
+                    </p>
+                    <div class="flex gap-4 justify-center md:justify-start">
+                        <button class="btn btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Resume</button>
+                        <button class="btn btn-ghost border border-[#40D1D2] text-[#40D1D2] hover:bg-[#40D1D2] hover:text-[#000412]">Say Hi!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- banner -->
+
+    </header>
+      <!-- header end -->
+       
+      <!-- main start -->
+    <main class="bg-[#000412] text-white">
+        <!-- about -->
+        <section id="about" class="py-16 md:py-24 max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="text-center md:text-left">
+                    <h4 class="text-xl md:text-2xl font-semibold mb-4">A bit about me</h4>
+                    <p class="font-light text-gray-400 mb-6">
+                        I'm a self-taught web developer and Mobile Apps Developer with experience in designing user features from ideation to production. I love taking on projects that challenge myself to learn and grow. My core technologies are HTML, CSS, JavaScript, React, Node.js, and MongoDB. I'm a quick learner and enjoy working with a team to build scalable and maintainable applications. My projects include everything from the first idea to deployment. Currently, I'm focused on backend development.
+                    </p>
+                    <h4 class="text-xl md:text-2xl font-semibold mb-4">Technologies and Tools</h4>
+                    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6">
+                        <div class="flex flex-col items-center">
+                            <img src="img/banner.png" alt="HTML" class="w-12 h-12 mb-2">
+                            <span class="text-sm">HTML</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./img/css.png" alt="CSS" class="w-12 h-12 mb-2">
+                            <span class="text-sm">CSS</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./img/js.png" alt="JavaScript" class="w-12 h-12 mb-2">
+                            <span class="text-sm">JavaScript</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./img/react.png" alt="React" class="w-12 h-12 mb-2">
+                            <span class="text-sm">React</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./img/node.png" alt="Node.js" class="w-12 h-12 mb-2">
+                            <span class="text-sm">Node.js</span>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./img/mongodb.png" alt="MongoDB" class="w-12 h-12 mb-2">
+                            <span class="text-sm">MongoDB</span>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+
+         <!-- servises -->
+        <section id="services" class="py-16 md:py-24 bg-[#000412] max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
+                    <div class="flex justify-center mb-4">
+                        <img src="./img/web-dev.png" alt="Web Application Development" class="w-16 h-16">
+                    </div>
+                    <h4 class="text-xl font-bold text-center mb-2">Web Application Development</h4>
+                    <p class="text-gray-400 text-center font-light">
+                        Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimisation.
+                    </p>
+                </div>
+                <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
+                    <div class="flex justify-center mb-4">
+                        <img src="./img/mobile-dev.png" alt="Mobile Application Development" class="w-16 h-16">
+                    </div>
+                    <h4 class="text-xl font-bold text-center mb-2">Mobile Application Development</h4>
+                    <p class="text-gray-400 text-center font-light">
+                        We provide a range of mobile application development services for a variety of platforms including iOS, Android, and cross-platform apps. Our services include app strategy, design, and development, as well as ongoing maintenance and support.
+                    </p>
+                </div>
+                <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
+                    <div class="flex justify-center mb-4">
+                        <img src="./img/backend-dev.png" alt="Backend Development" class="w-16 h-16">
+                    </div>
+                    <h4 class="text-xl font-bold text-center mb-2">Backend Development</h4>
+                    <p class="text-gray-400 text-center font-light">
+                        Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements, as well as optimising the user experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+         <!-- servises -->
+            <!-- projects -->
+        <section id="projects" class="py-16 md:py-24 max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+                <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+                <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+                 <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+                 <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+                 <div class="card project-card shadow-xl p-6 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">Noteworthy technology acquisitions 2021</h4>
+                    <p class="text-sm text-gray-400 mb-4 font-light">
+                        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-sm btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <button class="btn btn-outline border-[#40D1D2] text-[#40D1D2] hover:bg-[#40D1D2] hover:text-[#000412]">Show More</button>
+            </div>
+        </section>
+            <!-- projects -->
+            
+            <!-- contact -->
+            <section id="contact" class="py-16 md:py-24 bg-[#000412] max-w-7xl mx-auto px-4">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">Contact</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Connect with me</h4>
+                    <p class="text-gray-400 mb-6 font-light">Feel free to message me about my work, or if you would just like to say hello, send me a message. I'd love to hear from you!</p>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Name" class="input input-bordered w-full bg-[#1a1e2f] border-gray-700 text-white" />
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" placeholder="Email" class="input input-bordered w-full bg-[#1a1e2f] border-gray-700 text-white" />
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Subject" class="input input-bordered w-full bg-[#1a1e2f] border-gray-700 text-white" />
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="textarea textarea-bordered h-32 w-full bg-[#1a1e2f] border-gray-700 text-white" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Send</button>
+                    </form>
+                </div>
+                <div class="p-6 rounded-lg">
+                    <h4 class="text-xl font-semibold mb-4">Email</h4>
+                    <p class="text-gray-400 font-light">your.email@example.com</p>
+                    <h4 class="text-xl font-semibold mt-8 mb-4">Address</h4>
+                    <p class="text-gray-400 font-light">Your Address Here, City, Country</p>
+                    <h4 class="text-xl font-semibold mt-8 mb-4">Social</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-[#40D1D2]"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="text-white hover:text-[#40D1D2]"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="#" class="text-white hover:text-[#40D1D2]"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="#" class="text-white hover:text-[#40D1D2]"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- contact -->
+    </main>
+      <!-- main end -->
+       
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
