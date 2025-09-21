@@ -38,34 +38,92 @@
       <!-- header start -->
     <header class="bg-gradient-hero">
         <!-- navbar -->
-        <nav class="navbar max-w-7xl mx-auto px-4 py-4">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-[#000412] text-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <a href="#" class="text-xl font-bold font-inter text-[#40D1D2]">< Rabby Khan /></a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 font-inter font-light">
-                    <li><a href="#about" class="text-white hover:text-[#40D1D2]">About</a></li>
-                    <li><a href="#services" class="text-white hover:text-[#40D1D2]">Services</a></li>
-                    <li><a href="#projects" class="text-white hover:text-[#40D1D2]">Projects</a></li>
-                    <li><a href="#contact" class="text-white hover:text-[#40D1D2]">Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                 </div>
-        </nav>
+         <nav class="bg-transparent fixed top-0 left-0 w-full text-black z-50 transition-colors duration-300">
+    <div class="navbar text-white">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">HOME</a></li>
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">ABOUT</a></li>
+           
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">PROJECT</a></li>
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">CONTACT</a></li>
+          </ul>
+        </div>
+        <a href="index.html" class="md:text-3xl text-xl font-semibold font-inter text-[#40D1D2]">< Rabby Khan /></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <ul class="flex gap-6">
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                HOME
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                ABOUT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                PROJECT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                CONTACT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <div class="navbar-end">
+
+ <a href="#"
+  class="relative inline-block px-6 py-3 font-bold font-inter text-white
+  overflow-hidden rounded-md shadow-md transition-transform duration-300 transform
+  hover:-translate-y-[2px] hover:scale-105 group text-sm md:text-base
+  hover:shadow-[0_0_12px_#40D1D2]">
+
+  <!-- Base background -->
+  <span class="absolute inset-0 bg-[#40D1D2] z-0"></span>
+
+  <!-- Black overlay slides left to right on hover -->
+  <span class="absolute inset-0 bg-[#0A0A0A] z-10
+    transform scale-x-0 origin-left
+    transition-transform duration-500 ease-in-out
+    group-hover:scale-x-100">
+  </span>
+
+  <!-- Text -->
+  <span class="relative z-20 transition-colors duration-300 group-hover:text-[#40D1D2]">
+    CONTACT ME
+  </span>
+</a>
+
+
+
+      </div>
+    </div>
+  </nav>
         <!-- navbar -->
          <!-- banner -->
 
@@ -85,8 +143,57 @@
 From the first pixel to the final commit, I focus on speed, style, and a seamless user experience so every visitor feels right at home.
                     </p>
                     <div class="flex gap-4 justify-center md:justify-start">
-                        <button class="btn btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Resume</button>
-                        <button class="btn btn-ghost border border-[#40D1D2] text-[#40D1D2] hover:bg-[#40D1D2] hover:text-[#000412]">Say Hi!</button>
+                        
+                       <a href="#"
+  class="relative inline-block px-6 py-3 font-bold font-inter text-white
+  overflow-hidden rounded-md shadow-md transition-transform duration-300 transform
+  hover:-translate-y-[2px] hover:scale-105 group text-sm md:text-base
+  hover:shadow-[0_0_12px_#40D1D2]">
+
+  <!-- Base background -->
+  <span class="absolute inset-0 bg-[#40D1D2] z-0"></span>
+
+  <!-- Black overlay slides left to right on hover -->
+  <span class="absolute inset-0 bg-[#0A0A0A] z-10
+    transform scale-x-0 origin-left
+    transition-transform duration-500 ease-in-out
+    group-hover:scale-x-100">
+  </span>
+
+  <!-- Text -->
+  <span class="relative z-20 transition-colors duration-300 group-hover:text-[#40D1D2]">
+    Resume
+  </span>
+</a>
+       
+  <a href="#"
+  class="relative inline-block px-6 py-3 font-bold font-inter text-white
+  overflow-hidden rounded-md border border-[#40D1D2]
+  shadow-[0_0_8px_rgba(64,209,210,0.5)] transition-transform duration-300 transform
+  hover:-translate-y-[2px] hover:scale-105 group text-sm md:text-base
+  hover:shadow-[0_0_16px_rgba(64,209,210,0.8)]">
+
+  <!-- Base background (Black) -->
+  <span class="absolute inset-0 bg-[#0A0A0A] z-0"></span>
+
+  <!-- Overlay slides left to right on hover -->
+  <span class="absolute inset-0 bg-[#40D1D2] z-10
+    transform scale-x-0 origin-left
+    transition-transform duration-[700ms] ease-in-out
+    group-hover:scale-x-100">
+  </span>
+
+  <!-- Text -->
+  <span class="relative z-20 transition-colors duration-[300ms] group-hover:text-[#0A0A0A]">
+    Say Hi!
+  </span>
+</a>
+
+
+     
+
+
+
                     </div>
                 </div>
             </div>
@@ -194,8 +301,27 @@ From the first pixel to the final commit, I focus on speed, style, and a seamles
                 </div>
             </div>
             <div class="text-center mt-12">
-                <button class="btn btn-outline border-[#40D1D2] text-[#40D1D2] hover:bg-[#40D1D2] hover:text-[#000412]">Show More</button>
-            </div>
+                <a href="#"
+  class="relative inline-block px-8 py-3 font-bold font-inter text-white
+  rounded-md overflow-hidden
+  transition-transform duration-300 transform hover:scale-105 hover:-translate-y-[2px]
+  shadow-[0_0_12px_rgba(64,209,210,0.5)] hover:shadow-[0_0_20px_rgba(64,209,210,0.8)]
+  group">
+
+  <!-- Bottom-to-Top Circle Overlay -->
+  <span class="absolute left-1/2 bottom-0 w-0 h-0
+    bg-[#40D1D2] rounded-full
+    transform -translate-x-1/2 translate-y-1/2
+    transition-all duration-[1500ms] ease-in-out
+    group-hover:w-[300%] group-hover:h-[300%] group-hover:translate-y-0">
+  </span>
+
+  <!-- Text -->
+  <span class="relative z-10 transition-colors duration-500 group-hover:text-black">
+    Resume
+  </span>
+</a>
+
         </section>
             <!-- projects -->
             
@@ -219,7 +345,21 @@ From the first pixel to the final commit, I focus on speed, style, and a seamles
                         <div class="mb-4">
                             <textarea class="textarea textarea-bordered h-32 w-full bg-[#1a1e2f] border-gray-700 text-white" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary bg-[#40D1D2] border-none text-[#000412] font-semibold hover:bg-[#34a5a6]">Send</button>
+                         <a href="#"
+  class="relative inline-flex items-center justify-center px-8 py-3
+  font-bold font-inter text-white rounded-full
+  bg-[#40D1D2]/20 border border-[#40D1D2]/40 backdrop-blur-md
+  transition-all duration-300
+  hover:bg-[#40D1D2]/30 hover:scale-105 hover:-translate-y-[2px]
+  before:absolute before:inset-0 before:rounded-full
+  before:bg-gradient-to-r before:from-[#40D1D2]/0 before:via-[#40D1D2]/40 before:to-[#40D1D2]/0
+  before:opacity-0 before:transition-opacity before:duration-500
+  hover:before:opacity-100
+  shadow-[0_0_20px_rgba(64,209,210,0.5)] hover:shadow-[0_0_30px_rgba(64,209,210,0.8)]
+  overflow-hidden group">
+
+  <span class="relative z-10 tracking-wide">Send</span>
+</a>
                     </form>
                 </div>
                 <div class="p-6 rounded-lg">
@@ -241,6 +381,8 @@ From the first pixel to the final commit, I focus on speed, style, and a seamles
       <!-- main end -->
        
 
+
+      
     <footer>
         
     </footer>
