@@ -72,3 +72,143 @@
 
   <span class="relative z-10 tracking-wide">Send</span>
 </a>
+
+
+
+logo'
+
+<div class="flex space-x-3">
+  <!-- Facebook -->
+  <a href="#"
+     class="group relative flex h-12 w-12 items-center justify-center
+            rounded-full border border-white bg-white overflow-hidden">
+    <i class="fab fa-facebook-f text-lg text-[#262626]
+               z-10 transition-colors duration-300
+               group-hover:text-white group-hover:animate-flick"></i>
+    <span class="absolute inset-0 bg-[#3b5999] translate-y-full
+                 transition-transform duration-500 group-hover:translate-y-0"></span>
+  </a>
+
+  <!-- Twitter -->
+  <a href="#"
+     class="group relative flex h-12 w-12 items-center justify-center
+            rounded-full border border-white bg-white overflow-hidden">
+    <i class="fab fa-twitter text-lg text-[#262626]
+               z-10 transition-colors duration-300
+               group-hover:text-white group-hover:animate-flick"></i>
+    <span class="absolute inset-0 bg-[#55acee] translate-y-full
+                 transition-transform duration-500 group-hover:translate-y-0"></span>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="#"
+     class="group relative flex h-12 w-12 items-center justify-center
+            rounded-full border border-white bg-white overflow-hidden">
+    <i class="fab fa-linkedin-in text-lg text-[#262626]
+               z-10 transition-colors duration-300
+               group-hover:text-white group-hover:animate-flick"></i>
+    <span class="absolute inset-0 bg-[#0077b5] translate-y-full
+                 transition-transform duration-500 group-hover:translate-y-0"></span>
+  </a>
+
+  <!-- Google Plus -->
+  <a href="#"
+     class="group relative flex h-12 w-12 items-center justify-center
+            rounded-full border border-white bg-white overflow-hidden">
+    <i class="fab fa-google-plus-g text-lg text-[#262626]
+               z-10 transition-colors duration-300
+               group-hover:text-white group-hover:animate-flick"></i>
+    <span class="absolute inset-0 bg-[#dd4b39] translate-y-full
+                 transition-transform duration-500 group-hover:translate-y-0"></span>
+  </a>
+</div>
+
+
+
+
+         <nav class="bg-transparent fixed top-0 left-0 w-full text-black z-50 transition-colors duration-300">
+    <div class="navbar text-white">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">HOME</a></li>
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">ABOUT</a></li>
+           
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">PROJECT</a></li>
+            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">CONTACT</a></li>
+          </ul>
+        </div>
+        <a href="index.html" class="md:text-3xl text-xl font-semibold font-inter text-[#40D1D2]">< Rabby Khan /></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <ul class="flex gap-6">
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                HOME
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                ABOUT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                PROJECT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+            <li>
+              <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+                CONTACT
+                <span
+                  class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
+              </a>
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <div class="navbar-end">
+
+ <a href="#"
+  class="relative inline-block px-6 py-3 font-bold font-inter text-white
+  overflow-hidden rounded-md shadow-md transition-transform duration-300 transform
+  hover:-translate-y-[2px] hover:scale-105 group text-sm md:text-base
+  hover:shadow-[0_0_12px_#40D1D2]">
+
+  <!-- Base background -->
+  <span class="absolute inset-0 bg-[#40D1D2] z-0"></span>
+
+  <!-- Black overlay slides left to right on hover -->
+  <span class="absolute inset-0 bg-[#0A0A0A] z-10
+    transform scale-x-0 origin-left
+    transition-transform duration-500 ease-in-out
+    group-hover:scale-x-100">
+  </span>
+
+  <!-- Text -->
+  <span class="relative z-20 transition-colors duration-300 group-hover:text-[#40D1D2]">
+    CONTACT ME
+  </span>
+</a>
+
+
+
+      </div>
+    </div>
+  </nav>
