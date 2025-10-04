@@ -41,10 +41,10 @@
             </div>
             <ul tabindex="0"
             class="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">HOME</a></li>
+            <li><a id="#Home" class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">HOME</a></li>
             <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">ABOUT</a></li>
-            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">PROJECT</a></li>
-            <li><a class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">CONTACT</a></li>
+            <li><a id="#project" class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">PROJECT</a></li>
+            <li><a href="#contact" class="md:text-base text-sm font-bold font-inter hover:text-[#40D1D2]">CONTACT</a></li>
             </ul>
         </div>
         <a href="index.html" class="md:text-3xl text-xl font-semibold font-inter text-[#40D1D2]">< Rabby Khan /></a>
@@ -52,7 +52,7 @@
         <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 flex gap-6">
             <li>
-            <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+            <a href="#Home" class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
                 HOME
                 <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
             </a>
@@ -64,13 +64,13 @@
             </a>
             </li>
             <li>
-            <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+            <a href="#project" class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
                 PROJECT
                 <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
             </a>
             </li>
             <li>
-            <a class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
+            <a  href="#contact" class="group relative md:text-base text-sm font-bold font-inter text-white hover:text-[#40D1D2] transition-all duration-300 transform hover:-translate-y-1 hover:scale-105">
                 CONTACT
                 <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#40D1D2] transition-all duration-300 group-hover:w-full"></span>
             </a>
@@ -92,7 +92,7 @@
     </nav>
 
     <!-- banner -->
-    <section class="relative overflow-hidden">
+    <section id="Home" class="relative overflow-hidden">
   <!-- Raindrop Overlay -->
   <div class="absolute inset-0 overflow-hidden pointer-events-none z-0">
     <!-- অনেকগুলো drop -->
@@ -163,7 +163,7 @@
   opacity: 0.7;
 }
 
-/* অনেকগুলো random position + speed */
+/* random position + speed */
 .drop:nth-child(1) { left: 5%;  animation-duration: 2.5s; animation-delay: 0s; }
 .drop:nth-child(2) { left: 10%; animation-duration: 3s; animation-delay: 1s; }
 .drop:nth-child(3) { left: 15%; animation-duration: 2.8s; animation-delay: 0.5s; }
@@ -204,41 +204,9 @@
 
 
     <!-- Services -->
-    <section id="services" class="py-16 md:py-24 max-w-7xl mx-auto px-4">
-      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">Services</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
-          <div class="flex justify-center mb-4">
-            <img src="./img/web-dev.png" alt="Web Application Development" class="w-16 h-16">
-          </div>
-          <h4 class="text-xl font-bold text-center mb-2">Web Application Development</h4>
-          <p class="text-gray-400 text-center font-light">
-            Web design encompasses many different skills and disciplines in the production and maintenance of websites.
-          </p>
-        </div>
-        <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
-          <div class="flex justify-center mb-4">
-            <img src="./img/mobile-dev.png" alt="Mobile Application Development" class="w-16 h-16">
-          </div>
-          <h4 class="text-xl font-bold text-center mb-2">Mobile Application Development</h4>
-          <p class="text-gray-400 text-center font-light">
-            We provide a range of mobile application development services for iOS, Android, and cross-platform apps.
-          </p>
-        </div>
-        <div class="card bg-[#1a1e2f] shadow-xl p-8 rounded-lg">
-          <div class="flex justify-center mb-4">
-            <img src="./img/backend-dev.png" alt="Backend Development" class="w-16 h-16">
-          </div>
-          <h4 class="text-xl font-bold text-center mb-2">Backend Development</h4>
-          <p class="text-gray-400 text-center font-light">
-            We create robust server-side solutions with clean APIs and optimized performance.
-          </p>
-        </div>
-      </div>
-    </section>
-
+   
        <!-- projects -->   
-            <section class="bg-[#0e0f1a] pt-4 ">
+            <section id="project" class="bg-[#0e0f1a] pt-4 ">
                 <!-- heading -->
                 <div class="">
                   <h3 class="text-3xl md:text-4xl font-bold text-center mb-12">Projects</h3>
@@ -591,12 +559,28 @@
           placeholder="Your email address"
           class="w-full px-3 py-2 rounded text-black text-sm focus:outline-none focus:ring-2 focus:ring-[#40D1D2]"
         />
-        <button
-          type="submit"
-          class="bg-[#40D1D2] hover:bg-[#40D1D2] text-white py-2 px-4 rounded text-sm transition duration-300"
-        >
-          Subscribe
-        </button>
+      <button
+  type="button"
+  class="relative px-10 py-3 rounded-full font-semibold text-[#40D1D2] transition-all duration-500 overflow-hidden
+  hover:text-white hover:shadow-[0_0_25px_#40D1D2] before:content-[''] before:absolute before:inset-0 before:rounded-full
+  before:bg-[linear-gradient(90deg,transparent,#40D1D2,transparent),linear-gradient(90deg,transparent,#40D1D2,transparent)]
+  before:bg-[size:200%_100%] before:animate-[border-loop_3s_linear_infinite]
+  after:content-[''] after:absolute after:inset-[2px] after:rounded-full after:bg-white dark:after:bg-gray-900"
+>
+  <span class="relative z-10">subscribe</span>
+</button>
+
+
+
+<style>
+@keyframes spin-border {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style> 
+
+
+
       </form>
     </div>
 
